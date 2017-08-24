@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; -webkit-tap-highlight-color: transparent; -webkit-appearance: none;}
+html body{font-family:"微软雅黑"; width:100%; height:100%; background-color:#1B1610}
+a{ text-decoration:none;}
+li{ list-style:none}
+img,input{ vertical-align:middle}
+h1,h2,h3,h4,h5,h6,h7{ font-weight:400}
+/*common/*/
+.index .hides{ position:relative; z-index:1}
+.index .bg{ position:absolute; left:0; top:0;}
+.pinlei{ position:absolute; left:0; top:0; width:100%}
+.pinlei>h1{ background-color:#650b0a; color:#ffd190; font-size:15px; text-align:center; height:50px; line-height:50px}
+.pinlei .liebiao{ width:90%; margin:25px auto; overflow:hidden;}
+.pinlei .liebiao form input{ display:block; border:1px solid #ffd190; display: none;}
+.pinlei .liebiao dl{ width:25%; text-align:center; float:left;}
+.pinlei .liebiao dl dd.current{ background:url(../images/dui.png) no-repeat right center}
+.pinlei .liebiao dl dd input{ display:none}
+.pinlei .liebiao dl dt{ width:100%; height:60px; position:relative}
+.pinlei .liebiao dl dt img{ width:60%; margin:0 auto; display:block; position:absolute; bottom:0; left:18%}
+.pinlei .liebiao dl dd{ height:35px; line-height:35px; color:#ffd190; font-size:12px; text-align:center}
+.pinlei .liebiao dl dd a{color:#ffd190;}
+.pinlei .bottom_btn{ background:#2F261A; height:45px; line-height:45px; width:100%}
+.pinlei .bottom_btn input{ display:none}
+.pinlei .bottom_btn ul{ width:100%}
+.pinlei .bottom_btn ul li{ width:50%; float:left; text-align:center; color:#e9ba77; font-size:15px}
+.pinlei .bottom_btn ul li a{ width:100%; float:left; text-align:center; color:#e9ba77; font-size:15px}
+.pinlei .bottom_btn ul li:nth-child(2){ width:50%; float:left; background:rgba(233,186,119,0.1);}
+
+.pinlei .liebiao1{ width:95%; margin:25px auto; overflow:hidden; padding-bottom:60px}
+.pinlei .liebiao1 dl{ border:#443c2d 5px solid; width:42%; float:left; margin-left:3.5%; margin-top:15px; position:relative}
+.pinlei .liebiao1 dl dt{ width:100%;}
+.pinlei .liebiao1 dl dt img{width:100%}
+.pinlei .liebiao1 dl .dd1{width:100%; position:absolute; left:0; bottom:0; line-height:22px; background:rgba(255,233,173,0.7); text-align:center; color:#b90304; font-weight:bold; font-size:14px}
+.pinlei .liebiao1 dl .dd2{width:36px; height:36px; position:absolute;  right: -8%; top: -15%; background-color:#b90304; text-align:center; font-size:12px; border-radius:18px;}
+.pinlei .liebiao1 dl .dd2 a{ color:#fff}
+.pinlei .liebiao1 dl p{ position:absolute; left:0; top:10%; color:#f00; width:100%; text-align:center; opacity:0;}
+
+.icon{ position:fixed; left:0; bottom:3%; width:100%; margin:0 auto; text-align:center}
+.icon1{ position:fixed; left:16%; top:26%; width:74%; background:rgba(27,22,16,0.8); border-radius:12px; padding:3%; opacity:0; height:40%;}
+.smicon{ height:110%; overflow:auto}
+.icon1 dl{ float:left; width:33.3%; margin:10px 0}
+.icon1 dl dt a img{ display:block; margin:0 auto; text-align:center; width:60%}
+.icon1 dl dd a{ color:#ffd190; width:100%; text-align:center; font-size:13px; display:block}
+
+.qmengban .mengban{ display:none}
+.mengban{ width:100%; position:absolute; left:0; top:0;}
+.mengban h1{ background:rgba(0,0,0,0.5); width:100%;}
+.mengban div{ width:80%; margin:0 auto; position:absolute; left:10%; top:15%}
+.mengban div dl{ background-color:#fff; text-align:center; line-height:30px;  padding:15px 0}
+.mengban div dl dd{ font-size:16px; color:#575757; padding:0 5%}
+.mengban div dl .dd3{ color:#3f3f3f; font-size:12px; text-align:left; line-height:22px}
+.mengban div form input{ width:100%; height:45px; line-height:45px; background-color:#715d42; border:none; color:#ffce87; font-size:16px; text-align:center; font-weight:bold; margin-top:5px; outline:none}
+.mengban div form input:hover{ background-color:#564832}
+.mengban div p{ text-align:center; position:absolute; left:0; top:15%; width:100%; opacity:0}
+.mengban div p img{ width:200px}
+.mengban div h2{ position: absolute; right:0; top:-1%;}
+
+.tijiao{ width:85%; margin:15px auto;}
+.tijiao h2{ color:#ffe9ad; font-size:15px; line-height:30px; opacity:0.85}
+.tijiao .form input{ border:none; color:#ffe9ad; border:#473b2b 1px solid; border-radius:5px; width:80%; margin:10px auto; height:45px; line-height:45px; background:none; font-size:14px; padding-left:20%; outline:none; opacity:0.85}
+.tijiao .form .name{ background:url(../images/name.png) no-repeat 5% center}
+.tijiao .form .call{ background:url(../images/call.png) no-repeat 5% center}
+.tijiao .form .sub{ padding-left:0; width:100%; background-color:#453c2d; font-size:18px; font-weight:bold}
+.tijiao .form .sub:hover{ background-color:#373026;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ffe9ad;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffe9ad;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ffe9ad;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ffe9ad;
+}
+
+.hongbao h2 a{ width:54%; height:55px; position:absolute; left:23%; bottom:20%; background-color:#d30305; width:60%; height:45px; line-height:45px; font-size:15px; text-align:center; color:#ffe9ad; border-radius:5px}
+
+
+.hmangban{ width:100%;}
+.hmangban img{ position:absolute; left:19%; bottom:35%; display:block; animate-iteration-count: 2; }
+.hmangban img:nth-child(1){ z-index:200}
+.hmangban img:nth-child(2),.hmangban img:nth-child(3){ opacity:0; z-index:100}
+.money{ color:#fcf1c1; text-align:center; position:absolute; left:22%; bottom:45%; width:60%; z-index:102; font-size:18px; opacity:0}
+.money1{ color:#fcf1c1; text-align:center; position:absolute; left:22%; bottom:47%; width:60%; z-index:102; font-size:18px; opacity:0}
+
+
+.toupiao{ width:90%; margin:0 auto;}
+.toupiao dl{ width:100%; background:rgba(233,286,119,0.1); margin:0 auto; height:90px; padding-top:30px}
+.toupiao dl dt{ float:left; width:15%; margin-left:5%}
+.toupiao dl dd{ float:right; width:75%; color:#ffe9ad; font-size:17px}
+.toupiao dl dd .p1{ font-size:13px; margin-top:10px}
+.t_bottom{ margin:10px auto; width:100%;}
+.t_bottom>div{ margin-bottom:8px; width:100%;}
+.t_bottom>div h1{ height:40px; line-height:40px; color:#ffe9ad; width:90%; background:rgba(233,286,119,0.1); border-radius:5px; text-align:left; cursor:pointer; padding:0 5%; font-size:14px}
+.t_bottom>div h1 img{ float:right}
+.t_bottom>div div{ width:100%;}
+
+
+
+

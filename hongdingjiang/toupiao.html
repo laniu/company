@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport"><link type="text/css" rel="stylesheet" href="style/style.css" />
+<title>红顶奖</title>	
+</head>
+<body>
+<div class="index">
+  <div class="pinlei">
+    <h1>投票结果</h1>
+    <div class="toupiao">
+      <dl class="t_top">
+        <dt><img src="images/jiadian.png" width="100%" /></dt>
+        <dd>
+          <p>家电排行榜</p>
+          <p class="p1">参与网友：<span> 23849 </span>人  总票数：<span> 23849 </span>票</p>
+        </dd>
+      </dl><!--t_top/-->
+      
+      <div class="t_bottom">
+        <div class="tb">
+          <h1><span>冰箱</span><img src="images/xia.png" width="40" /></h1>
+          <div class="container1" style="width:90%;height:350px"></div>
+        </div>
+        <div class="tb">
+          <h1><span>电视</span><img src="images/xia.png" width="40" /></h1>
+          <div class="container2" style="width:90%;height:350px"></div>
+        </div>
+        <div class="tb">
+          <h1><span>手机</span><img src="images/xia.png" width="40" /></h1>
+          <div class="container3" style="width:90%;height:350px"></div>
+        </div>
+        
+        
+      </div><!--t_bottom/-->
+      
+    </div><!--toupiao/-->
+     
+  </div><!--pinlei/-->
+</div><!--index/--> 
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/highcharts.js"></script>
+  <script>
+    //左侧Javascript代码
+	
+	$(function () {                                                                
+    $('.container1').highcharts({                                           
+        chart: {                                                           
+            type: 'bar'                                                    
+        },                                                                 
+        xAxis: {                                                           
+            categories: ['海尔', '西门子', '美的', '美菱', '海信', '小天鹅', '创维', 'TCL'],
+                                                           
+        },                                                                 
+        yAxis: {                                                           
+            min: 0,                                                                                 
+        },                                                                                                                                         
+        plotOptions: {                                                     
+            bar: {                                                         
+                dataLabels: {                                              
+                    enabled: true                                          
+                }                                                          
+            }                                                              
+        },                                                                 
+                                                                 
+        series: [{                                                                                                     
+            data: [107, 31, 635, 300, 100, 500, 400, 200]                                   
+        }]                                                                 
+    });                                                                    
+});  
+
+
+$(function () {                                                                
+    $('.container2').highcharts({                                           
+        chart: {                                                           
+            type: 'bar'                                                    
+        },                                                                 
+        xAxis: {                                                           
+            categories: ['海尔', '西门子', '美的', '美菱', '海信', '小天鹅', '创维', 'TCL'],
+                                                                      
+        },                                                                 
+                                                                                                                                       
+        plotOptions: {                                                     
+            bar: {                                                         
+                dataLabels: {                                              
+                    enabled: true                                          
+                }                                                          
+            }                                                              
+        },                                                                 
+                                                                 
+        series: [{                                                                                                     
+            data: [107, 31, 635,300,100,500,400,200]                                    
+        }]                                                                 
+    });                                                                    
+});  
+
+$(function () {                                                                
+    $('.container3').highcharts({                                           
+        chart: {                                                           
+            type: 'bar'                                                    
+        },                                                                 
+        xAxis: {                                                           
+            categories: ['海尔', '西门子', '美的', '美菱', '海信', '小天鹅', '创维', 'TCL'],
+                                                                      
+        },                                                                 
+                                                                                                                                       
+        plotOptions: {                                                     
+            bar: {                                                         
+                dataLabels: {                                              
+                    enabled: true                                          
+                }                                                          
+            }                                                              
+        },                                                                 
+                                                                 
+        series: [{                                                                                                     
+            data: [107, 31, 635,300,100,500,400,200]                                    
+        }]                                                                 
+    });                                                                    
+});  
+  </script>  
+</body>
+</html>
